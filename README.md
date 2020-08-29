@@ -7,9 +7,14 @@
 
 ## Package Manager
 
+<<<<<<< HEAD
 * Install Node and set up npm 
     - Install Node & npm through nvm https://github.com/nvm-sh/nvm#installing-and-updating
+=======
+* Install Node and set up npm
+>>>>>>> 8239cf6e4d42e664bee721bd3f626322f02ae73b
 
+    - Install Node & npm through nvm https://github.com/nvm-sh/nvm#installing-and-updating
     - Create package.json
 
 * Set up Security Scaning
