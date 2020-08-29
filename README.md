@@ -38,3 +38,22 @@
 
     * npm scripts
         - Write in "scripts" inside package.json
+
+## Transpiling
+
+    * Babel
+        ~ code .babelrc
+        - edit npm automated scripts
+
+## Bundling
+
+    * Why Bundle ?
+        - Common JS doesn't work in web browsers
+        - Package projects into file(s)
+        - Improve Node performance
+    
+    * Webpack
+        ~ code .webpack.config.dev.js
+        _ Set up development server to serve up webpack bundle
+            ~ code buildScripts/srcServer.js
+
