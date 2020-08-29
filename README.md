@@ -14,7 +14,7 @@
 
 * Set up Security Scaning
 
-Beginning with npm@6, a new command, npm audit, recursively analyzes your dependency trees to identify specifically what’s insecure, recommend a replacement, or fix it automatically with npm audit fix...
+    Beginning with npm@6, a new command, npm audit, recursively analyzes your dependency trees to identify specifically what’s insecure, recommend a replacement, or fix it automatically with npm audit fix...
 
     ~ npm audit
     ~ npm audit --audit-level high
