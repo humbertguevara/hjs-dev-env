@@ -37,3 +37,4 @@
 ## Task Automation
 
     * npm scripts
+        - Write in "scripts" inside package.json
