@@ -33,3 +33,7 @@
         - locatunnel
             ~ npm install localtunnel -g
             ~ lt --port 3000 --subdomain humberto
+
+## Task Automation
+
+    * npm scripts

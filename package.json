@@ -2,7 +2,9 @@
   "name": "hs20-js-dev-env",
   "version": "1.0.0",
   "description": "JavaScript development environment Pluralsight course by Cory House",
-  "scripts": {},
+  "scripts": {
+      "start": "node buildScripts/srcServer.js"
+  },
   "author": "Cory House",
   "license": "MIT",
   "dependencies": {
