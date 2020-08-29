@@ -53,7 +53,15 @@
         - Improve Node performance
     
     * Webpack
+
+    ###CHECK AGAIN###
         ~ code .webpack.config.dev.js
         _ Set up development server to serve up webpack bundle
             ~ code buildScripts/srcServer.js
+
+    ###Sourcemaps###
+        - Maps the bundle code back to the original source
+        - Could be generate automatic as pasrt of our build proccess
+        - Downloaded only if developer tool is open
+        
 
