@@ -7,7 +7,7 @@
 
 ## Package Manager
 
-* Install Node and set up npm
+* Install Node and set up npm 
     - Install Node & npm through nvm https://github.com/nvm-sh/nvm#installing-and-updating
 
     - Create package.json
@@ -20,6 +20,11 @@
     ~ npm audit --audit-level high
     ~ npm audit fix
 
-    - Check package security status within npm start
-
 ## Development Web Server
+
+    * Config express app
+    
+    * Share work-in-progrss
+        - locatunnel
+            ~ npm install localtunnel -g
+            ~ lt --port 3000 --subdomain humberto
