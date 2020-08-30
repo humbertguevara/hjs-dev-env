@@ -63,5 +63,14 @@
         - Maps the bundle code back to the original source
         - Could be generate automatic as pasrt of our build proccess
         - Downloaded only if developer tool is open
-        
+
+## Linting
+
+    * Set up and Config ESLint 
+        - ESLint Recommended
+        - eslint-watch
+        ~ code .eslintrc.json
+        - add to scripts in package.json:
+            "lint": "esw webpack.config.* src buildScripts --color"
+            "lint:watch": "npm run lint -- --watch"
 

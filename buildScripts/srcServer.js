@@ -24,7 +24,7 @@ app.listen(port, function (err) {
     if(err) {
         console.log(err);
     } else {
-        console.log(chalk.green("Server running on port " + port));
+        console.log(chalk.green("Server running on port " + port)); // eslint-disable-line no-console
         open('http://localhost:' + port);
     }
 });
