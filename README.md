@@ -74,3 +74,48 @@
             "lint": "esw webpack.config.* src buildScripts --color"
             "lint:watch": "npm run lint -- --watch"
 
+## Testing
+
+    1. Pick a framework
+        - Mocha (X)
+        - Jasmine
+        - Tape
+        - QUnit
+        - AVA
+        - Jest (React)
+
+    2. Assertion Library
+        Declare what you expect
+        - Chai (X)
+
+    3. Helper Libraries
+        * JSDOM (X)
+            - Simulates the browser's DOM
+            - Rum DOM-related tests withput a browser
+        * Cheerio
+            - jQuery for the server
+            - Query virtual DOM using jQuery selectors        
+
+    4. Where to run tests
+        * In Browser
+        * Headless Browser
+            - PhantomJS (run javascript without UI)
+        * In-memory DOM (X)
+            - JSDOM
+
+    5. Where to place tests
+        * Centralized all tests
+            - All test in a folder 'tests'
+            - Less noise in src folder
+
+        * Alongside (X)
+            - Easy imports
+            - Clear visibility
+            - Convenient to open
+            - No recreating fodler structure
+            - Easy file moves 
+
+    6. When should run tests    
+        - Unit tests => Run upon save
+
+## Continuos Integration
