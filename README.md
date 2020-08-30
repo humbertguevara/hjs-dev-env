@@ -116,4 +116,10 @@
     6. When should run tests    
         - Unit tests => Run upon save
 
-## Continuos Integration
+## Continuos Integration (CI)
+
+    - Run utomate build (builds apps automatically)
+    - Run test suite
+    - Check code coverage
+    - Automate deployment
+     
