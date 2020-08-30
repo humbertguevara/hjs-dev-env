@@ -7,12 +7,10 @@
 
 ## Package Manager
 
-<<<<<<< HEAD
 * Install Node and set up npm 
     - Install Node & npm through nvm https://github.com/nvm-sh/nvm#installing-and-updating
-=======
+
 * Install Node and set up npm
->>>>>>> 8239cf6e4d42e664bee721bd3f626322f02ae73b
 
     - Install Node & npm through nvm https://github.com/nvm-sh/nvm#installing-and-updating
     - Create package.json
@@ -54,12 +52,12 @@
     
     * Webpack
 
-    ###CHECK AGAIN###
+    CHECK AGAIN
         ~ code .webpack.config.dev.js
         _ Set up development server to serve up webpack bundle
             ~ code buildScripts/srcServer.js
 
-    ###Sourcemaps###
+    Sourcemaps
         - Maps the bundle code back to the original source
         - Could be generate automatic as pasrt of our build proccess
         - Downloaded only if developer tool is open
