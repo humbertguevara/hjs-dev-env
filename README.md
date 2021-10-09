@@ -1,4 +1,4 @@
-# hs20-js-dev-env
+# FrontEnd Development Environment
 
 ## Editor & Configuration
 
@@ -9,11 +9,6 @@
 
 * Install Node and set up npm 
     - Install Node & npm through nvm https://github.com/nvm-sh/nvm#installing-and-updating
-
-* Install Node and set up npm
-
-    - Install Node & npm through nvm https://github.com/nvm-sh/nvm#installing-and-updating
-    - Create package.json
 
 * Set up Security Scaning
 
